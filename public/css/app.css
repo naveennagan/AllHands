@@ -1,0 +1,89 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+.navbar-default {
+    background-color:#205081;
+    border-color: #bf3e11;
+}
+.well {
+    background: #DFF0D8;
+}
+
+#footerSlideContainer {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+}
+#footerSlideButton {
+	background: http://return-true.com/examples/sliderButton.png top left no-repeat transparent;
+	position: absolute;
+	top: -55px;
+	right: 20px;
+	width:50px;
+	height:50px;
+	border: none;
+	cursor: pointer;
+}
+#footerSlideContent {
+	width: 100%;
+	height: 0px;
+	background: #251b15;
+	color: #CCCCCC;
+	font-size: 0.8em;
+	border: none;
+	font-family: DejaVuSansBook, Sans-Serif;
+}
+#footerSlideText {
+	padding: 15px 10px 25px 25px;
+}
+.panel-success {
+    border-color: #205081;
+}
+.panel-success .panel-heading {
+    background-color: #2D67A3;
+    border-color: #205081;
+    color: white;
+}
+.btn-success {
+    background-color: #2D67A3;
+    border-color: #205081;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
