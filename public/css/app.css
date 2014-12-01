@@ -68,7 +68,13 @@ footer {
     border-color: #205081;
     color: #ffffff;
 }
-
+.boxme.ng-hide-add {
+    -webkit-animation: fadeOutLeftBig 0.4s;
+    display: block!important;
+}
+.boxme.ng-hide-remove {
+    -webkit-animation: fadeInLeftBig 0.4s;
+}
 
 
 

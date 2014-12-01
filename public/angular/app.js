@@ -17,5 +17,6 @@ app.controller('QuestionController',['$scope',function($scope){
 	   $scope.currentUser="Anonymous";
 	   $scope.currentQuestion="";
 	   console.log('Question Added.');
-	}
+	};	
+	$scope.showMe=false;
 }]);
